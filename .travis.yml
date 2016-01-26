@@ -1,0 +1,13 @@
+before_script:
+  - export http_proxy=
+  - export https_proxy=
+  - export no_proxy="localhost, 127.0.0.1"
+  - git config --global http.sslVerify "false"
+  - git config --global http.proxy 
+  - git config --global https.proxy 
+  
+script:
+  - rm -rf /root/.npm/*.lock.STALE
+  - npm install
+  - bower --allow-root install
+  - grunt dist -v
