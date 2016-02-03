@@ -10,7 +10,7 @@ module.exports = {
       }
     },
     files: {
-      'public/bower_components/file-upload-cards/css/file-upload.css': 'public/bower_components/file-upload-cards/css/file-upload.scss'
+      'public/bower_components/file-upload/css/file-upload.css': 'public/bower_components/file-upload/css/file-upload.scss'
     }
   }
 }

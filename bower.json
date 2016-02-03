@@ -32,7 +32,7 @@
     "requirejs": "https://github.com/jrburke/requirejs.git#2.1.18",
     "requirejs-plugins": "1.0.2",
     "px-app-nav": "https://github.com/kdinluks/px-app-nav.git#~v0.4.1",
-    "plupload": "https://github.com/moxiecode/plupload.git#2.1.8",
     "paper-tooltip": "PolymerElements/paper-tooltip#~1.1.1"
+    "file-upload": "https://github.com/kdinluks/file-upload.git#~0.1.0"
   }
 }
