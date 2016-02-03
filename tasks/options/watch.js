@@ -9,8 +9,10 @@ module.exports = {
     scripts: {
         files: [
             'public/scripts/**/*.js',  // watch these files
-            'test/e2e/**/*.js'
+            'test/e2e/**/*.js',
+            'public/bower_components/**/*.js',
+            'public/bower_components/**/*.scss'
         ],
-        tasks: ['jshint', 'karma', 'vulcanize']  // run these commands
+        tasks: ['default', 'jshint', 'karma', 'vulcanize']  // run these commands
     }
 };

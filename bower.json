@@ -33,6 +33,9 @@
     "requirejs-plugins": "1.0.2",
     "px-app-nav": "https://github.com/kdinluks/px-app-nav.git#~v0.4.1",
     "px-layout-design": "https://github.build.ge.com/PXd/px-layout-design.git#~0.3.7",
-    "plupload": "https://github.com/moxiecode/plupload.git#2.1.8"
+    "plupload": "https://github.com/moxiecode/plupload.git#2.1.8",
+    "px-starter-kit-design": "https://github.build.ge.com/PXd/px-starter-kit-design.git#~0.4.5",
+    "px-defaults-design": "https://github.build.ge.com/PXd/px-defaults-design.git#~0.2.4",
+    "paper-tooltip": "PolymerElements/paper-tooltip#~1.1.1"
   }
 }
