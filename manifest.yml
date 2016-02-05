@@ -7,20 +7,8 @@ applications:
     disk_quota: 512M
     stack: cflinuxfs2
     services:
-            - redis
-            - view
-            - asset
-            - uaa
-            - timeseries
+            - uaa instance name
     env:
-      UAA_SERVER_URL: 
-      REDIS: 
-      TIMESERIES_ZONE_ID: 
-      TIMESERIES_URL: 
-      CLIENT_ID: 
-      CLIENT_SECRET: 
-      VIEWS_URL: 
-      VIEWS_ZONE_ID: 
-      ASSET_URL: 
-      ASSET_ZONE_ID: 
-      TIMESERIES_INGESTION_URL: 
+      UAA_SERVER_URL: uaa instance url
+      CLIENT_ID: client id
+      CLIENT_SECRET: base64 encoded of clientid:password
