@@ -9,10 +9,10 @@ var config = {
    * Please update the following uaa configuration for your solution
    */
   uaa: {
-    clientId: 'predixSeedClient',
-    serverUrl: 'https://21c3b184-e9ce-4665-894f-a3d417915fdd.predix-uaa.run.aws-usw02-pr.ice.predix.io',
+    clientId: '',
+    serverUrl: '',
     defaultClientRoute: '/about',
-    base64ClientCredential: 'cHJlZGl4U2VlZENsaWVudDp1WWlUWWFhcFZRbGFlUHo5YmM3SnVzd1hyMnNVdDR2OWJLVG91S3FxdXJRPQ=='
+    base64ClientCredential: ''
   },
   /**
    * --------- ADD YOUR SECURE ROUTES HERE ------------
@@ -22,24 +22,9 @@ var config = {
    * Note: Keep the /api in front of your services here to tell the proxy to add authorization headers.
    */
   proxy: {
-    // Predix Views
-    '/api/view-service(.*)': {
-      url: 'https://predix-views.run.aws-usw02-pr.ice.predix.io/api$1',
-      instanceId: '6755e143-afee-4e96-8402-23f440753b2e'
-    },
-    // Predix Asset        
-    '/api/asset/(.*)': {
-      url: 'https://predix-asset.run.aws-usw02-pr.ice.predix.io/$1',
-      instanceId: 'e7547cc1-50eb-46d7-b16e-553308930008'
-    },
-    // Predix Timeseries
-    '/api/timeseries(.*)': {
-      url: 'https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/datapoints$1',
-      instanceId: '429a21e7-8bdc-4606-ac6d-8f7b879efe50'
-    },
     // Timeseries Ingestion
     '/api/upload(.*)': {
-        url: 'https://timeseries-ingestion-service.run.aws-usw02-pr.ice.predix.io/upload$1',
+        url: '',
         instanceId: ''
     }
   }
