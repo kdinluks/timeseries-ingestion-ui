@@ -2,6 +2,16 @@
 
 Timeseries Ingestion UI is the user interface for bulk uploading timeseries data using the timeseries ingestion service https://github.com/kdinluks/timeseries-ingestion-service.
 
+## Application Flow
+
+This application is meant to make the use of the timeseries-ingestion-service easier by offering a visual solution to configure the parameters to be sent with the file to the ingestion service.
+
+It also offers multi-file upload and queue, so it uploads and sends one file at a time.
+
+It uses the file-upload Polymer component to handle the bulk file uploads of historical timeseries data and send the files to the timeseries-ingestion-service for the processing of the files.
+
+<img src="Flow.png" />  
+
 ## To Deploy the UI
 
 Follow the steps below to deploy this application in a new environment.
