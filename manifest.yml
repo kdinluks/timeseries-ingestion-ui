@@ -12,3 +12,4 @@ applications:
       UAA_SERVER_URL: uaa instance url
       CLIENT_ID: client id
       CLIENT_SECRET: base64 encoded of clientid:password
+      TIMESERIES_INGESTION_URL: timeseries-ingestion-service url
