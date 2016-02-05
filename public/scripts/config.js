@@ -8,7 +8,7 @@
 * for your application.
 */
 requirejs.onError = function(err) {
-    //console.log(err.requireType);
+    // console.log(err.requireType);
     if (err.requireType === 'timeout') {
         //console.error('modules: ' + err.requireModules);
     }
@@ -66,8 +66,7 @@ require.config({
         'normalize': '../bower_components/require-css/normalize',
 
         lodash: '../bower_components/lodash/dist/lodash.min',
-        jquery: '../bower_components/jquery/dist/jquery.min',
-        plupload: '../bower_components/plupload/js/plupload.full.min'
+        jquery: '../bower_components/jquery/dist/jquery.min'
 
     },
     priority: [
